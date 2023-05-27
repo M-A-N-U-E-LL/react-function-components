@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import ClassComponent from './components/ClassComponent';
-import FuncComponent from './components/FuncComponent';
+import FormSignUp from './components/FormSignUp';
 
 function App() {
   return (
-    <div className="App">
-      <ClassComponent />
-      <FuncComponent />
-    </div>
+    <>
+      <h1>Formulario Registro</h1>
+      <FormSignUp />
+    </>
   );
 }
 
